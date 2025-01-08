@@ -1,62 +1,104 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Buenard:wght@400;700&family=Flamenco:wght@300;400&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+AU+SA:wght@100..400&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-body{
+body {
     font-family: "Azeret Mono", serif;
 }
-*{
+
+* {
     margin: 0px;
     padding: 0px;
 }
+
 /* Shared Style  */
-.btn-primary{
+.btn-primary {
     font-size: 18px;
-    width: 180px;
-    height: 50px;
+    width: 130px;
+    height: 45px;
     box-sizing: border-box;
     border: 1px solid rgb(13, 19, 33);
-    border-radius: 12px;
+    border-radius: 10px;
     color: rgb(13, 19, 33);
     background-color: white;
-    
+
 
 
 }
-.btn-secondary{
+.btn-primary2{
+    font-size: 10px;
+    width: 70px;
+    height: 25px;
+    box-sizing: border-box;
+    border: 1px dashed rgb(13, 19, 33);
+    border-radius: 8px;
+    color: rgb(13, 19, 33);
+    background-color: white;
+
+}
+.btn-primary2:hover{
+    font-size: 10px;
+    width: 80px;
+    height: 30px;
+    box-sizing: border-box;
+    border: 1px dashed rgb(13, 19, 33);
+    border-radius: 8px;
+    color: rgb(13, 19, 33);
+    background-color: white;
+    font-size: 12px;
+    box-shadow: 2px 2px 2px gray;
+
+}
+
+.btn-secondary {
     font-size: 18px;
-    width: 180px;
-    height: 50px;
+    width: 130px;
+    height: 45px;
     box-sizing: border-box;
     border: 1px solid rgb(13, 19, 33);
-    border-radius: 12px;
+    border-radius: 10px;
     color: rgb(255, 255, 255);
     background-color: black;
     opacity: 0.8;
 
 }
+.btn-secondary:hover{
+    font-size: 20px;
+    width: 135px;
+    height: 50px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    box-shadow: 2px 2px 2px gray;
 
-.common-p{
+}
+
+.common-p {
     color: rgb(13, 19, 33);
     font-size: 13px;
 }
+
 /* Nav & Hero Section Style  */
-.hero-sec{
+.hero-sec {
     margin-top: 20px;
 }
-.navbar{
+
+.navbar {
     display: flex;
     align-items: center;
     justify-content: space-around;
     margin-bottom: 20px;
 
 }
-.nav-title .hero-title{
+
+.nav-title .hero-title {
     color: rgb(13, 19, 33);
     font-size: 28px;
 
 }
 
 
-.hero-bg{
+.hero-bg {
     background-image: url(../images/Hero-bg.png);
     width: 100%;
     height: 70vh;
@@ -64,10 +106,62 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    
+
 }
-.hero-emoji{
+
+.hero-emoji {
     width: 166.28px;
     height: 157px;
+}
+
+/* Main Section Style  */
+main {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.why-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 90%;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+
+}
+.why-title{
+    margin-top: 30px;
+}
+
+.box1 , .box3 {width: 864px;
+    height: 215px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding: 48px;
+    margin: 20px 80px;
+    border-radius: 10px;
+    box-shadow: 5px 5px  5px rgb(213, 212, 212);
+    gap: 50px;
+}
+.box2{width: 864px;
+    height: 215px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding: 48px;
+    margin: 20px 80px;
+    border-radius: 10px;
+    box-shadow: 5px 5px  5px rgb(213, 212, 212);
+    gap: 50px;
+}
+
+.box1-left , .box2-left, .box3-left {
+    text-align: justify;
 }
 
