@@ -80,10 +80,12 @@ body {
     color: rgb(13, 19, 33);
     font-size: 13px;
 }
-.p-rm{
+
+.p-rm {
     color: black;
     font-size: 12px;
 }
+
 /* Nav & Hero Section Style  */
 .hero-sec {
     margin-top: 20px;
@@ -122,9 +124,11 @@ body {
 
 /* Main Section Style  */
 main {
-    margin-top: 50px;
+    margin: 50px 0;
+       
     display: flex;
     justify-content: center;
+    
 }
 
 .why-section {
@@ -135,6 +139,7 @@ main {
     width: 90%;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
+    padding-bottom: 30px; 
 
 }
 
@@ -183,10 +188,9 @@ main {
     text-align: center;
     width: 90%;
     background-color: rgb(255, 255, 255);
-
     margin: 55px 65px;
     border-radius: 10px;
-
+    
 }
 
 .target-box {
@@ -220,12 +224,86 @@ main {
     background: rgba(255, 223, 0, 0.05);
     width: 23%;
     height: 220px;
-    
+
 }
-.for-style{
+
+.for-style {
     margin-left: 20px;
 }
 
+/* Next target section Style  */
+.next-target-title {
+    padding-top: 30px;
+
+}
+
+.next-target-section {
+    padding-bottom: 30px;
+    margin: 30px auto;
+    text-align: center;
+    justify-content: center;
+    width: 90%;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    margin: 20px 60px;
+
+}
+
+.next-target-box1 {
+    width: 864px;
+    height: 20px;
+    align-items: start;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: justify;
+    background-color: rgb(255, 255, 255);
+    padding: 48px;
+    margin: 25px 80px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgb(213, 212, 212);
+    gap: 30px;
+    border: 1px dotted rgb(13, 19, 33);
+
+}
+
+/* I Need Support Section Style  */
+.support-section{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+.support-section-bg {
+    background-image:  url(../images/handshake.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 90%;
+    height: 313px;
+    border-radius: 16px;
+    margin: 30px 0;
+
+}
+.support-section-input{
+    font-size: 18px;
+    width: 300px;
+    height: 45px;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 10px;
+    color: rgb(13, 19, 33);
+    background-color: white;
+}
+.support-section-description{
+    color: white;
+
+}
+.support-section-title{
+    font-size: xx-large;
+
+}
+.support-section-center{
+    margin: 70px 70px;
+}
 /* Footer Section Style  */
 .footer-section {
     display: flex;
