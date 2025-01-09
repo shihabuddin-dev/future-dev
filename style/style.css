@@ -23,7 +23,8 @@ body {
 
 
 }
-.btn-primary2{
+
+.btn-primary2 {
     font-size: 10px;
     width: 70px;
     height: 25px;
@@ -34,7 +35,8 @@ body {
     background-color: white;
 
 }
-.btn-primary2:hover{
+
+.btn-primary2:hover {
     font-size: 10px;
     width: 80px;
     height: 30px;
@@ -60,7 +62,8 @@ body {
     opacity: 0.8;
 
 }
-.btn-secondary:hover{
+
+.btn-secondary:hover {
     font-size: 20px;
     width: 135px;
     height: 50px;
@@ -77,7 +80,10 @@ body {
     color: rgb(13, 19, 33);
     font-size: 13px;
 }
-
+.p-rm{
+    color: black;
+    font-size: 12px;
+}
 /* Nav & Hero Section Style  */
 .hero-sec {
     margin-top: 20px;
@@ -131,11 +137,14 @@ main {
     background: rgba(13, 19, 33, 0.02);
 
 }
-.why-title{
+
+.why-title {
     margin-top: 30px;
 }
 
-.box1 , .box3 {width: 864px;
+.box1,
+.box3 {
+    width: 864px;
     height: 215px;
     display: flex;
     justify-content: center;
@@ -144,10 +153,12 @@ main {
     padding: 48px;
     margin: 20px 80px;
     border-radius: 10px;
-    box-shadow: 5px 5px  5px rgb(213, 212, 212);
+    box-shadow: 5px 5px 5px rgb(213, 212, 212);
     gap: 50px;
 }
-.box2{width: 864px;
+
+.box2 {
+    width: 864px;
     height: 215px;
     display: flex;
     flex-direction: row-reverse;
@@ -157,11 +168,72 @@ main {
     padding: 48px;
     margin: 20px 80px;
     border-radius: 10px;
-    box-shadow: 5px 5px  5px rgb(213, 212, 212);
+    box-shadow: 5px 5px 5px rgb(213, 212, 212);
     gap: 50px;
 }
 
-.box1-left , .box2-left, .box3-left {
+.box1-left,
+.box2-left,
+.box3-left {
     text-align: justify;
 }
 
+/* Target Section Style  */
+.target-section {
+    text-align: center;
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+
+    margin: 55px 65px;
+    border-radius: 10px;
+
+}
+
+.target-box {
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 10px;
+
+}
+
+.target-html {
+    border-radius: 16px;
+    text-align: justify;
+    background: rgba(255, 76, 30, 0.05);
+    width: 23%;
+    height: 220px;
+}
+
+.target-css {
+    border-radius: 16px;
+    text-align: justify;
+    background: rgba(0, 76, 232, 0.05);
+    width: 23%;
+    height: 220px;
+}
+
+.target-js {
+    border-radius: 16px;
+    text-align: justify;
+    background: rgba(255, 223, 0, 0.05);
+    width: 23%;
+    height: 220px;
+    
+}
+.for-style{
+    margin-left: 20px;
+}
+
+/* Footer Section Style  */
+.footer-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 90px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    margin-top: 30px;
+}
