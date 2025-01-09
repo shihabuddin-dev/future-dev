@@ -88,7 +88,7 @@ body {
 
 /* Nav & Hero Section Style  */
 .hero-sec {
-    margin-top: 20px;
+    margin-top: 20px 0 100px 0;
 }
 
 .navbar {
@@ -124,8 +124,7 @@ body {
 
 /* Main Section Style  */
 main {
-    margin: 50px 0;
-       
+    margin: 100px 0;
     display: flex;
     justify-content: center;
     
@@ -183,12 +182,28 @@ main {
     text-align: justify;
 }
 
+
+
+/* Inspiration Section Style  */
+.insp-sec{
+    margin: 100px 0;
+    text-align: center;
+    width: 90;
+    
+
+}
+.insp-frame{
+    width: 1080px;
+    height: 550px;
+    border-radius: 15px;
+}
+
 /* Target Section Style  */
 .target-section {
     text-align: center;
-    width: 90%;
+    width: 90;
     background-color: rgb(255, 255, 255);
-    margin: 55px 65px;
+    margin: 100px 0;
     border-radius: 10px;
     
 }
@@ -239,7 +254,7 @@ main {
 
 .next-target-section {
     padding-bottom: 30px;
-    margin: 30px auto;
+    margin: 100px 0;
     text-align: center;
     justify-content: center;
     width: 90%;
@@ -281,7 +296,7 @@ main {
     width: 90%;
     height: 313px;
     border-radius: 16px;
-    margin: 30px 0;
+    margin: 80px 0;
 
 }
 .support-section-input{
@@ -309,9 +324,9 @@ main {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
-    height: 90px;
-    border-radius: 16px;
+    width: 90;
+    height: 80px;
+    border-radius: 10px;
     background: rgba(13, 19, 33, 0.03);
-    margin-top: 30px;
+    
 }
