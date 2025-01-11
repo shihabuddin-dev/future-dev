@@ -2,6 +2,8 @@
 
 body {
     font-family: "Azeret Mono", serif;
+    max-width: 1280px;
+    margin: 0 auto;
 }
 
 * {
@@ -96,6 +98,7 @@ body {
     align-items: center;
     justify-content: space-around;
     margin-bottom: 20px;
+    margin-top: 20px;
 
 }
 
