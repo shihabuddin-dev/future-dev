@@ -130,7 +130,7 @@ main {
     margin: 100px 0;
     display: flex;
     justify-content: center;
-    
+
 }
 
 .why-section {
@@ -141,7 +141,7 @@ main {
     width: 90%;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
-    padding-bottom: 30px; 
+    padding-bottom: 30px;
 
 }
 
@@ -188,14 +188,15 @@ main {
 
 
 /* Inspiration Section Style  */
-.insp-sec{
+.insp-sec {
     margin: 100px 0;
     text-align: center;
     width: 90;
-    
+
 
 }
-.insp-frame{
+
+.insp-frame {
     width: 1080px;
     height: 550px;
     border-radius: 15px;
@@ -208,7 +209,7 @@ main {
     background-color: rgb(255, 255, 255);
     margin: 100px 0;
     border-radius: 10px;
-    
+
 }
 
 .target-box {
@@ -284,15 +285,21 @@ main {
     border: 1px dotted rgb(13, 19, 33);
 
 }
+marquee{
+    color: green;
+    font-size: larger;
+    padding-top: 50px;
+}
 
 /* I Need Support Section Style  */
-.support-section{
+.support-section {
     text-align: center;
     justify-content: center;
     display: flex;
 }
+
 .support-section-bg {
-    background-image:  url(../images/handshake.jpg);
+    background-image: url(../images/handshake.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -302,7 +309,8 @@ main {
     margin: 80px 0;
 
 }
-.support-section-input{
+
+.support-section-input {
     font-size: 18px;
     width: 300px;
     height: 45px;
@@ -311,17 +319,21 @@ main {
     color: rgb(13, 19, 33);
     background-color: white;
 }
-.support-section-description{
+
+.support-section-description {
     color: white;
 
 }
-.support-section-title{
+
+.support-section-title {
     font-size: xx-large;
 
 }
-.support-section-center{
+
+.support-section-center {
     margin: 70px 70px;
 }
+
 /* Footer Section Style  */
 .footer-section {
     display: flex;
@@ -331,5 +343,5 @@ main {
     height: 80px;
     border-radius: 10px;
     background: rgba(13, 19, 33, 0.03);
-    
+
 }
